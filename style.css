@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    color: beige;
+    background-color: rgb(59, 57, 57);
+}
+
+.container{
+    max-width: 80vw;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.navbar{
+    display: flex;
+    height: 70px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.navbar li{
+    list-style: none;
+    padding: 0px 12px;
+}
+.navbar  a{
+    text-decoration: none;
+    color: black;
+}
+
+.logo{
+    font-size: 1.4rem;
+}
+
+.topleft{
+    width: 50%;
+    height: 50vh;
+    /* border: 2px solid black; */
+}
+
+.topright{
+    width: 50%;
+    height: 50vh;
+
+}
+
+.topright img{
+    height: 300px;
+    width: 300px;
+}
+
+.dumbell{
+    height:100px;
+    width: 100px;
+    padding:0px 200px;
+    display: block;
+}
+
+
+.section2 h1{
+    font-size: 2rem;
+}
+.section2 p{
+   padding-right: 99px;
+   padding-left: 99px;
+}
+
+.box{
+    margin: 12px 22px;
+    padding: 12px;
+    border: 3px solid black;
+    border-radius: 20px;
+    min-width: 20vw;
+    text-align: center;
+}
+
+.box h2{
+    padding: 12px;
+}
+
+.box ul{
+    list-style: none;
+}
+.box ul li{
+   margin: 12px 2px;
+}
+
+.plantable{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section3 table{
+    width: 100%;
+    margin-top: 40px ;
+    margin-bottom: 140px ;
+    border-collapse: collapse;
+}
+.section3 table th{
+    width: 23vw;
+    border-bottom: 2px solid black;
+    padding: 12px 0;
+}
+    
+
+.section3 table td{
+    border-bottom: 2px solid black;
+    padding: 12px 0;
+}
+
+.section3{
+    padding-right: 99px;
+    padding-left: 99px;
+ }
+
+ footer{
+     padding: 13px;
+     /* text-align: center; */
+ }
+
+
+ .form-container input{
+    width: 160vh;
+    border: 2px solid black;
+    border-radius: 20px;
+    
+ }
+ .form-container .form-text{
+    color: #e55050;
+ }
+ .form-container{
+   margin-left: 70px;
+ }
+
+ .contact h1{
+   margin-left: 70px;
+   padding-top: 20px;
+ }
+ 
+
+ .contact{
+     height: 100vh;
+     z-index: -10;
+ }
+
+
+
+
+ @media screen and (max-width: 800px) {
+    
+   .topright img{
+       display: none;
+       /* height: 347px;
+       width: 195px;
+       padding-left: 48px; */
+   }
+
+   nav{
+       display: flex;
+       flex-direction: column;
+   }
+
+    .dumbell {
+    width: 50px;
+   padding: 0 51px;
+    
+   }
+
+  .section1{
+      flex-wrap: nowrap;
+  }
+
+  .container{
+      max-width: 100%;
+  }
+
+ .section1{
+     padding: 90px;
+ }
+
+ .boxes{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+ }
+
+ .box{
+     min-width: 15vw;
+ }
+ 
+ .topleft{
+    width: 70%;
+    padding: 0 50px;
+}
+
+footer{
+    font-size: 14px;
+}
+
+.section1 h1{
+    font-size: 16px;
+}
+
+.section3 table th{
+   
+    padding: 12px 11px;
+}
+
+.form-container input{
+    width: 35vh;
+ }
+
+ .form-container{
+    margin-left: 40px;
+  }
+
+  .contact h1{
+    margin-left: 120px;
+    padding-top: 20px;
+  }
+ 
+}
+
+
+ 
+
